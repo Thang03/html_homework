@@ -1,99 +1,97 @@
-html {
+html{
 	padding: 0;
 	margin: 0;
 }
-
-* {
+*{
 	box-sizing: border-box;
 }
 
-ul, li {
+.ul,li{
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-body {
+.body{
 	padding: 0;
 	margin: 0;
 }
 
-@font-face {
-  font-family: Cinzel;
-  src: url("Cinzel/Cinzel-VariableFont_wght.ttf");
+@font-face{
+	font-family: Cinzel;
+	src: url("Cinzel-VariableFont_wght.ttf");
 }
 
-.container {
+.container{
 	border-style: double;
 	min-height: 600px;
 	margin: 20px;
 }
 
-.wrapper {
+.wrapper{
 	width: 60%;
 	margin: 40px auto;
 }
 
-.head-wrapper {
+.head-wapper{
 	width: 100%;
 	margin-bottom: 20px;
 }
 
-.logo {
+.logo{
 	width: 15%;
 	margin: 15px auto 40px auto;
 }
 
-.logo img {
+.logo img{
 	margin: auto;
 }
 
-.menu {
+.menu{
 	height: 60px;
-	padding: 15px 30px;
+	padding: 15px, 30px;
 	border-top: 2px solid #000;
+	margin-bottom: 20px;
 	border-bottom: 2px solid #000;
 	box-sizing: border-box;
 }
 
-.menu ul {
+.menu ul{
 	display: flex;
-	
 }
 
-.menu ul li {
+.menu ul li{
 	display: inline-block;
 	vertical-align: sub;
 	flex-grow: 1;
 	text-align: center;
 	font-size: 22px;
 	color: #000;
-	font-family: Cinzel;
+	font-family: Cinzel;	
 }
 
-.menu ul li a {
+.menu ul li a{
 	text-decoration: none;
 	color: #000;
 }
 
-.menu ul li a.active {
-	color: orange;
+.menu ul li a.active{
+	color: #000;
 }
 
-.menu ul li a:hover {
-	color: orange;
+.menu ul li a:hover{
+	color: #000;
 }
 
-.slide_images img {
+.slide_images img{
 	width: 100%;
 }
-
-.text-description {
+.text-description{
 	margin-top: 40px;
 }
 
-.text-description p {
-	font-size: 16px;
+.text-description p{
+	font-size: 26px;
 	color: #000;
 	text-align: center;
 	font-family: Cinzel;
